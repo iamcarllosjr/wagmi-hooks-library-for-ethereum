@@ -1,9 +1,14 @@
-import Image from "next/image";
+"use client";
 
-export default function Home() {
+import React from 'react'
+import ConnectWallet from './Components/ConnectWallet';
+
+const page = () => {
   return (
-    <>
-    Wamig
-    </>
-  );
+    <div>
+      <ConnectWallet />
+    </div>
+  )
 }
+
+export default page;
